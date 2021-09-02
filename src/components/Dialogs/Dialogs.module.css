@@ -1,0 +1,36 @@
+.dialogs{
+	display: grid;
+	grid-template-areas: 
+	"d m";
+	grid-template-columns: 6fr 6fr;
+	
+}
+
+.dialogs_items{
+	grid-area: d;
+	padding: 30px;
+	font-size:30px;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+.dialogs_messages{
+	grid-area: m;
+	padding: 30px;
+	font-size: 30px;
+	color: #fff;
+}
+.dialog{
+	padding: 30px;
+	font-size: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.message{
+	padding: 30px;
+	font-size: 30px;
+	font-weight: 700;
+}

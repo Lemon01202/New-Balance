@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: #101823;
+}
+
+*{
+  color:#fff;
+}
+
+textarea{
+  color: #fff;
+  outline: none;
+  overflow : hidden;
+  background-color: #19232D;
+  border-radius: 20px;
+  font-size: 30px;
+  resize: none;
+  caret-color:transparent;
+  border:1px solid transparent;
+  transition: all .3s linear;
+  text-align: center;
+}
+textarea::placeholder{
+  color: #3C404A;
+}
+textarea:focus{
+  border: 1px solid rgba(255, 255, 255,.5);
+}
+
+
+
+
+ 

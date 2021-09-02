@@ -1,0 +1,21 @@
+.addPostTextSpan{
+	padding-left: 10px;
+}
+
+.addPost{
+	text-align: center;
+}
+
+.postMessageBtn{
+	background-color: #19232D;
+	color: #fff;
+	border-radius: 180px;
+	font-size: 20px;
+	width: 600px;
+	height: 30px;
+	border:1px solid transparent;
+	transition: all .3s linear;
+  }
+  .postMessageBtn:hover{
+	border: 1px solid #fff;
+  }

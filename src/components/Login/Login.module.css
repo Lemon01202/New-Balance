@@ -1,0 +1,46 @@
+.submitBtn{
+	color: black;
+}
+
+.error{
+	color:red;
+}
+
+.formBlock {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+}
+
+.form *{
+	text-align: center;
+	margin: 10px;
+	font-size: 26px;
+}
+
+.form input{
+	background-color: transparent;
+	height: 30px;
+}
+
+.form{
+    background-color: #19232D;
+	border-radius: 20px;
+}
+
+.submitBtn{
+	margin-bottom: 50px;
+	
+}
+
+.formTitle{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.formRememberMe{
+	width: 20px;
+	border-radius: 20px;
+	position: relative;
+	top: 5px;
+}

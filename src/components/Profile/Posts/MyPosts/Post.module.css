@@ -1,0 +1,45 @@
+
+.item img{
+  border-radius: 50px;
+  margin-left: 5px;
+}
+.postText{
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  margin-left: 20px;
+}
+.nickname{
+  color: darkgreen;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  margin-left: 5px;
+}
+.avatar{
+  width: 40px;
+}
+
+.like,.dislike{
+  width: 30px;
+  position: relative;
+  cursor: pointer;
+  top: 5px;
+}
+.likesCount{
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  margin-left: 25px;
+  color: green;
+}
+.dislikesCount{
+  font-size: 30px;
+  position: relative;
+  top: -11px;
+  margin-left: 10px;
+  color: rgb(197, 19, 19);
+}
+.like:hover{
+  cursor: pointer;
+}

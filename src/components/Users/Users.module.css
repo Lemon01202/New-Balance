@@ -1,0 +1,86 @@
+.usersAvatar{
+	width: 110px;
+	border-radius: 100px;
+}
+
+.usersContent{
+	margin-left: 80px;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+}
+
+.usersInfo{
+	max-width: 600px;
+	display: grid;
+	grid-template-columns: 1fr 100px;
+	border: 1px solid #028102;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+.followBtn{
+	background-color: #232D3A;
+	border: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 30px;
+	width: 110px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+.selectedPage{
+	font-weight: 600;
+	font-size: 37px;
+}
+
+.pageNumbers{
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.pagesPagination{
+	display: flex;
+
+}
+.paginationItem:hover{
+	cursor: pointer;
+
+}
+
+.paginationItem{
+	margin: 0 10px;
+	background-color: rgba(4, 255, 0, 0.2);
+	/* width: 80px; */
+	/* height: 80px; */
+	padding: 20px 20px;
+	/* border: 1px solid #028102; */
+}
+
+
+
+.pageNumbers span{
+	margin-right: 20px;
+}
+
+.nextPagination{
+	/* margin-left: 20px; */
+}
+
+.nextPagination, .previousPagination{
+	border: 2px solid green;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 20px;
+	width: 100px;
+	padding-top: 23px;
+	cursor: pointer;
+}
